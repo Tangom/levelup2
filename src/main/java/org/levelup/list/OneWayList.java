@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.ListIterator;
 
 /**
- * Created by Student-18 on 18.07.2017.
+ * @author Protsko D.
  */
 public class OneWayList<T> implements List<T> {
 

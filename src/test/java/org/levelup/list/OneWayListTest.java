@@ -8,7 +8,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 /**
- * Created by Student-18 on 18.07.2017.
+ * @author Protsko D.
  */
 public class OneWayListTest {
 
