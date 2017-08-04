@@ -18,7 +18,10 @@
 
         <property name="hibernate.show_sql">true</property>
 
-        <mapping resource="user.hbm.xml"/>
+        <mapping class="org.levelup.hibernate.domain.User"/>
+        <mapping class="org.levelup.hibernate.domain.Post"/>
+        <mapping class="org.levelup.hibernate.domain.Comment"/>
+        <mapping class="org.levelup.hibernate.domain.Category"/>
 
     </session-factory>
 
