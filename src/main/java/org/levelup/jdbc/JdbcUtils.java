@@ -21,7 +21,7 @@ public class JdbcUtils {
             System.out.println("MySQL");
             return DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/posts?useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
-                    "root", "root");
+                    "root", "TanGoTanGo");
         } catch (SQLException e) {
             throw new RuntimeException("Couldn't get connection. " +
                     "Error message: "+ e.getMessage());

@@ -13,7 +13,7 @@
             jdbc:mysql://localhost:3306/posts?createDatabaseIfNotExist=true&amp;useSSL=false&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC
         </property>
         <property name="hibernate.connection.username">root</property>
-        <property name="hibernate.connection.password">123456</property>
+        <property name="hibernate.connection.password">TanGoTanGo</property>
         <property name="hbm2ddl.auto">create</property>
 
         <property name="hibernate.show_sql">true</property>
